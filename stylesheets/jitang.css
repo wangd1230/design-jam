@@ -50,7 +50,7 @@ input{
 	background-color: #A7DFDE;
 	display: flex;
 	text-align: center;
-	margin-top: 20%;
+	bottom: 0;
 	position: fixed;
 }
 .footer div{
