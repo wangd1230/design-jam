@@ -52,11 +52,14 @@ input{
 	text-align: center;
 	bottom: 0;
 	position: fixed;
-	margin-top: 20%;
 }
 .footer div{
 	width: 25%;
 }
 .footer img{
 	margin-top: 10px;
+}
+.blank{
+	width: 100%;
+	height: 60px;
 }
