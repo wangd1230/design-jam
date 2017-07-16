@@ -2,7 +2,18 @@ form{
 	background-color: #a7dfde;
 	/*text-align: center;*/
 	padding: 5px 20px;
+	margin-top: 20%;
 }
 .question{
 	font-size: 30px;
 }
+.btn{
+	text-align: center;
+	margin: 0 auto;
+}
+/*#form-submit{
+	text-align: center;
+}*/
+/*.form-two,.form-three,.form-four,.form-five{
+	display: none;
+}*/

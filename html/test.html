@@ -4,33 +4,34 @@
 	<meta charset="UTF-8">
 	<title>test</title>
 	<link rel="stylesheet" href="../stylesheets/test.css">
-	<script type="text/javascript" src=""></script>
 	<!--  -->
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!--  -->
+	<script type="text/javascript" src="../js/test.js"></script>
 	<!--  -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
 	<div class="container">
-		<form action="">
-			<div class="form-group">
+		<form action="" class="form-one">
+			<div class="form-group" id="group1">
 				<label for="" class="question">1. 你觉得上网的时间比你预期的要长吗？</label>
 				<div class="radio">
 					<label for="">
-						<input type="radio" name="optionRadios1">几乎没有
+						<input type="radio" class="one" name="optionRadios1" value="1">几乎没有
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios1">偶尔
+						<input type="radio"  class="one" name="optionRadios1" value="2">偶尔
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios1">有时
+						<input type="radio" class="one" name="optionRadios1" value="3">有时
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios1">经常
+						<input type="radio" class="one" name="optionRadios1" value="4">经常
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios1">总是
+						<input type="radio" class="one" name="optionRadios1" value="5">总是
 					</label>
 				</div>
 			</div>
@@ -38,19 +39,19 @@
 				<label for="" class="question">2. 你会因为上网忽略自己要做的事情吗？</label>
 				<div class="radio">
 					<label for="">
-						<input type="radio" name="optionRadios2">几乎没有
+						<input type="radio" name="optionRadios2" value="1">几乎没有
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios2">偶尔
+						<input type="radio" name="optionRadios2" value="2">偶尔
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios2">有时
+						<input type="radio" name="optionRadios2" value="3">有时
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios2">经常
+						<input type="radio" name="optionRadios2" value="4">经常
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios2">总是
+						<input type="radio" name="optionRadios2" value="5">总是
 					</label>
 				</div>
 			</div>
@@ -58,19 +59,19 @@
 				<label for="" class="question">3. 你更愿意上网而不是和亲密的朋友呆在一起吗？</label>
 				<div class="radio">
 					<label for="">
-						<input type="radio" name="optionRadios3">几乎没有
+						<input type="radio" name="optionRadios3" value="1">几乎没有
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios3">偶尔
+						<input type="radio" name="optionRadios3" value="2">偶尔
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios3">有时
+						<input type="radio" name="optionRadios3" value="3">有时
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios3">经常
+						<input type="radio" name="optionRadios3" value="4">经常
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios3">总是
+						<input type="radio" name="optionRadios3" value="5">总是
 					</label>
 				</div>
 			</div>
@@ -78,39 +79,42 @@
 				<label for="" class="question">4. 你经常在网上结交新朋友吗？</label>
 				<div class="radio">
 					<label for="">
-						<input type="radio" name="optionRadios4">几乎没有
+						<input type="radio" name="optionRadios4" value="1">几乎没有
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios4">偶尔
+						<input type="radio" name="optionRadios4" value="2">偶尔
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios4">有时
+						<input type="radio" name="optionRadios4" value="3">有时
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios4">经常
+						<input type="radio" name="optionRadios4" value="4">经常
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios4">总是
+						<input type="radio" name="optionRadios4" value="5">总是
 					</label>
 				</div>
 			</div>
+			<div class="btn btn-default btn1">下一页</div>
+		</form>
+		<form class="form-two">
 			<div class="form-group">
 				<label for="" class="question">5. 生活中朋友、家人会抱怨你上网时间太长吗？</label>
 				<div class="radio">
 					<label for="">
-						<input type="radio" name="optionRadios5">几乎没有
+						<input type="radio" name="optionRadios5" value="1">几乎没有
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios5">偶尔
+						<input type="radio" name="optionRadios5" value="2">偶尔
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios5">有时
+						<input type="radio" name="optionRadios5" value="3">有时
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios5">经常
+						<input type="radio" name="optionRadios5" value="4">经常
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios5">总是
+						<input type="radio" name="optionRadios5" value="5">总是
 					</label>
 				</div>
 			</div>
@@ -118,19 +122,19 @@
 				<label for="" class="question">6. 你因为上网影响学习了吗？</label>
 				<div class="radio">
 					<label for="">
-						<input type="radio" name="optionRadios6">几乎没有
+						<input type="radio" name="optionRadios6" value="1">几乎没有
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios6">偶尔
+						<input type="radio" name="optionRadios6" value="2">偶尔
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios6">有时
+						<input type="radio" name="optionRadios6" value="3">有时
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios6">经常
+						<input type="radio" name="optionRadios6" value="4">经常
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios6">总是
+						<input type="radio" name="optionRadios6" value="5">总是
 					</label>
 				</div>
 			</div>
@@ -138,19 +142,19 @@
 				<label for="" class="question">7. 你是否会不顾身边需要解决的一些问题而上网查Email或看留言？</label>
 				<div class="radio">
 					<label for="">
-						<input type="radio" name="optionRadios7">几乎没有
+						<input type="radio" name="optionRadios7" value="1">几乎没有
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios7">偶尔
+						<input type="radio" name="optionRadios7" value="2">偶尔
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios7">有时
+						<input type="radio" name="optionRadios7" value="3">有时
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios7">经常
+						<input type="radio" name="optionRadios7" value="4">经常
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios7">总是
+						<input type="radio" name="optionRadios7" value="5">总是
 					</label>
 				</div>
 			</div>
@@ -158,39 +162,42 @@
 				<label for="" class="question">8. 你因为上网影响到你的日常生活了吗？</label>
 				<div class="radio">
 					<label for="">
-						<input type="radio" name="optionRadios8">几乎没有
+						<input type="radio" name="optionRadios8" value="1">几乎没有
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios8">偶尔
+						<input type="radio" name="optionRadios8" value="2">偶尔
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios8">有时
+						<input type="radio" name="optionRadios8" value="3">有时
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios8">经常
+						<input type="radio" name="optionRadios8" value="4">经常
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios8">总是
+						<input type="radio" name="optionRadios8" value="5">总是
 					</label>
 				</div>
 			</div>
+			<div class="btn btn-default btn2">下一页</div>
+		</form>
+		<form class="form-three">
 			<div class="form-group">
 				<label for="" class="question">9. 你是否担心网上的隐私被人知道？</label>
 				<div class="radio">
 					<label for="">
-						<input type="radio" name="optionRadios9">几乎没有
+						<input type="radio" name="optionRadios9" value="1">几乎没有
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios9">偶尔
+						<input type="radio" name="optionRadios9" value="2">偶尔
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios9">有时
+						<input type="radio" name="optionRadios9" value="3">有时
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios9">经常
+						<input type="radio" name="optionRadios9" value="4">经常
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios9">总是
+						<input type="radio" name="optionRadios9" value="5">总是
 					</label>
 				</div>
 			</div>
@@ -198,19 +205,19 @@
 				<label for="" class="question">10. 你会因为心情不好去上网吗？</label>
 				<div class="radio">
 					<label for="">
-						<input type="radio" name="optionRadios10">几乎没有
+						<input type="radio" name="optionRadios10" value="1">几乎没有
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios10">偶尔
+						<input type="radio" name="optionRadios10" value="2">偶尔
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios10">有时
+						<input type="radio" name="optionRadios10" value="3">有时
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios10">经常
+						<input type="radio" name="optionRadios10" value="4">经常
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios10">总是
+						<input type="radio" name="optionRadios10" value="5">总是
 					</label>
 				</div>
 			</div>
@@ -218,19 +225,19 @@
 				<label for="" class="question">11. 你在一次上网后会渴望下一次上网吗？</label>
 				<div class="radio">
 					<label for="">
-						<input type="radio" name="optionRadios11">几乎没有
+						<input type="radio" name="optionRadios11" value="1">几乎没有
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios11">偶尔
+						<input type="radio" name="optionRadios11" value="2">偶尔
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios11">有时
+						<input type="radio" name="optionRadios11" value="3">有时
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios11">经常
+						<input type="radio" name="optionRadios11" value="4">经常
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios11">总是
+						<input type="radio" name="optionRadios11" value="5">总是
 					</label>
 				</div>
 			</div>
@@ -238,39 +245,42 @@
 				<label for="" class="question">12. 如果无法上网你会觉得生活空虚无聊吗？</label>
 				<div class="radio">
 					<label for="">
-						<input type="radio" name="optionRadios12">几乎没有
+						<input type="radio" name="optionRadios12" value="1">几乎没有
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios12">偶尔
+						<input type="radio" name="optionRadios12" value="2">偶尔
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios12">有时
+						<input type="radio" name="optionRadios12" value="3">有时
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios12">经常
+						<input type="radio" name="optionRadios12" value="4">经常
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios12">总是
+						<input type="radio" name="optionRadios12" value="5">总是
 					</label>
 				</div>
 			</div>
+			<div class="btn btn-default btn3">下一页</div>
+		</form>
+		<form class="form-four">
 			<div class="form-group">
 				<label for="" class="question">13. 你会因为别人打搅你上网发脾气吗？</label>
 				<div class="radio">
 					<label for="">
-						<input type="radio" name="optionRadios13">几乎没有
+						<input type="radio" name="optionRadios13" value="1">几乎没有
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios13">偶尔
+						<input type="radio" name="optionRadios13" value="2">偶尔
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios13">有时
+						<input type="radio" name="optionRadios13" value="3">有时
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios13">经常
+						<input type="radio" name="optionRadios13" value="4">经常
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios13">总是
+						<input type="radio" name="optionRadios13" value="5">总是
 					</label>
 				</div>
 			</div>
@@ -278,19 +288,19 @@
 				<label for="" class="question">14. 你会上网到深夜不去睡觉吗？</label>
 				<div class="radio">
 					<label for="">
-						<input type="radio" name="optionRadios14">几乎没有
+						<input type="radio" name="optionRadios14" value="1">几乎没有
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios14">偶尔
+						<input type="radio" name="optionRadios14" value="2">偶尔
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios14">有时
+						<input type="radio" name="optionRadios14" value="3">有时
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios14">经常
+						<input type="radio" name="optionRadios14" value="4">经常
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios14">总是
+						<input type="radio" name="optionRadios14" value="5">总是
 					</label>
 				</div>
 			</div>
@@ -298,19 +308,19 @@
 				<label for="" class="question">15. 你在离开网络后会想着网上的事情吗？</label>
 				<div class="radio">
 					<label for="">
-						<input type="radio" name="optionRadios15">几乎没有
+						<input type="radio" name="optionRadios15" value="1">几乎没有
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios15">偶尔
+						<input type="radio" name="optionRadios15" value="2">偶尔
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios15">有时
+						<input type="radio" name="optionRadios15" value="3">有时
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios15">经常
+						<input type="radio" name="optionRadios15" value="4">经常
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios15">总是
+						<input type="radio" name="optionRadios15" value="5">总是
 					</label>
 				</div>
 			</div>
@@ -318,39 +328,42 @@
 				<label for="" class="question">16. 你在上网时会对自己说：“就再玩一会吗？”</label>
 				<div class="radio">
 					<label for="">
-						<input type="radio" name="optionRadios16">几乎没有
+						<input type="radio" name="optionRadios16" value="1">几乎没有
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios16">偶尔
+						<input type="radio" name="optionRadios16" value="2">偶尔
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios16">有时
+						<input type="radio" name="optionRadios16" value="3">有时
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios16">经常
+						<input type="radio" name="optionRadios16" value="4">经常
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios16">总是
+						<input type="radio" name="optionRadios16" value="5">总是
 					</label>
 				</div>
 			</div>
+			<div class="btn btn-default btn4">下一页</div>
+		</form>
+		<form class="form-five">
 			<div class="form-group">
 				<label for="" class="question">17. 你会想方法减少上网时间而最终失败吗？</label>
 				<div class="radio">
 					<label for="">
-						<input type="radio" name="optionRadios17">几乎没有
+						<input type="radio" name="optionRadios17" value="1">几乎没有
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios17">偶尔
+						<input type="radio" name="optionRadios17" value="2">偶尔
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios17">有时
+						<input type="radio" name="optionRadios17" value="3">有时
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios17">经常
+						<input type="radio" name="optionRadios17" value="4">经常
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios17">总是
+						<input type="radio" name="optionRadios17" value="5">总是
 					</label>
 				</div>
 			</div>
@@ -358,19 +371,19 @@
 				<label for="" class="question">18. 你会对人隐瞒你上网多长时间吗？</label>
 				<div class="radio">
 					<label for="">
-						<input type="radio" name="optionRadios18">几乎没有
+						<input type="radio" name="optionRadios18" value="1">几乎没有
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios18">偶尔
+						<input type="radio" name="optionRadios18" value="2">偶尔
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios18">有时
+						<input type="radio" name="optionRadios18" value="3">有时
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios18">经常
+						<input type="radio" name="optionRadios18" value="4">经常
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios18">总是
+						<input type="radio" name="optionRadios18" value="5">总是
 					</label>
 				</div>
 			</div>
@@ -378,19 +391,19 @@
 				<label for="" class="question">19. 你宁愿上网而不愿意和朋友们出去玩吗？</label>
 				<div class="radio">
 					<label for="">
-						<input type="radio" name="optionRadios19">几乎没有
+						<input type="radio" name="optionRadios19" value="1">几乎没有
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios19">偶尔
+						<input type="radio" name="optionRadios19" value="2">偶尔
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios19">有时
+						<input type="radio" name="optionRadios19" value="3">有时
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios19">经常
+						<input type="radio" name="optionRadios19" value="4">经常
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios19">总是
+						<input type="radio" name="optionRadios19" value="5">总是
 					</label>
 				</div>
 			</div>
@@ -398,22 +411,26 @@
 				<label for="" class="question">20. 你会因为不能上网变得烦躁不安，喜怒无常，而一旦能上网就不会这样吗？</label>
 				<div class="radio">
 					<label for="">
-						<input type="radio" name="optionRadios20">几乎没有
+						<input type="radio" name="optionRadios20" value="1">几乎没有
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios20">偶尔
+						<input type="radio" name="optionRadios20" value="2">偶尔
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios20">有时
+						<input type="radio" name="optionRadios20" value="3">有时
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios20">经常
+						<input type="radio" name="optionRadios20" value="4">经常
 					</label>
 					<label for="">
-						<input type="radio" name="optionRadios20">总是
+						<input type="radio" name="optionRadios20" value="5">总是
 					</label>
 				</div>
 			</div>
+			<div class="form-group" id="form-submit">
+				<button type="submit" class="btn btn-default">Submit</button>
+			</div>
+		</form>
 		</form>
 	</div>
 </body>
