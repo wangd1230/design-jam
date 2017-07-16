@@ -2,11 +2,11 @@ form{
 	background-color: #a7dfde;
 	/*text-align: center;*/
 	padding: 5px 20px;
-	margin-top: 30%;
+	margin: 5% 0;
 }
-.question{
+/*.question{
 	font-size: 30px;
-}
+}*/
 .btn{
 	text-align: center;
 	margin: 0 auto;
