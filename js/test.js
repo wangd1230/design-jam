@@ -1,12 +1,4 @@
 $(document).ready(function(){
-	var sum;
-	var a = [20];
-	function get(argument) {	
-		var radionum = $("input[name='optionRadios1'][checked]").val(); 
-		console.log(radionum);
-	}
-	// $('.btn').click(get());
-	get();
 	//
 	$('.form-two,.form-three,.form-four,.form-five').css('display','none');
 	$('.btn1').click(function(){
