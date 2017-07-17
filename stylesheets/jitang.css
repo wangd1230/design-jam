@@ -15,13 +15,13 @@ html,body{
 	text-align: center;
 	line-height: 70px;
 }
-.mid{
+.content5 .mid{
 	margin-top: 10%;
 	display: flex;
 	justify-content: space-around;
 	padding: 0 20px;
 }
-.top{
+.content5 .top{
 	width: 150px;
 	height: 38px;
 	border: solid 1px ;
@@ -29,16 +29,16 @@ html,body{
 	margin: 0 auto;
 	margin-top: 10%;
 }
-input{
+.content5 input{
 	width: 110px;
 	height: 36px;
 	border: none;
 	outline: none;
 }
-.top span{
+.content5 .top span{
 	margin-left: 10px;
 }
-.bottom{
+.content5 .bottom{
 	display: flex;
 	width: 300px;
 	margin: 0 auto;
@@ -46,18 +46,18 @@ input{
 	margin-top: 15%;
 	justify-content: space-around;
 }
-.list{
+.content5 .list{
 	/*width: 300px;*/
 	display: flex;
 	margin-top: 5%;
 }
-ul{
+.content5 ul{
 	list-style: none;
 }
-.list span{
+.content5 .list span{
 	color: #C53B38;
 }
-.list li{
+.content5 .list li{
 	border-bottom: dashed 1px #CECECE;
 	padding: 5px 0;
 	font-size: 11px;

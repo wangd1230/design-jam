@@ -1,0 +1,51 @@
+.container-fluid{
+	padding: 0;
+}
+.header{
+	background-color: #A7DFDE;
+	height: 70px;
+}
+.header p{
+	color: #ffffff;
+	text-align: center;
+	line-height: 70px;
+	font-size: 28px;
+}
+.content1{
+	width: 100%;
+	height: 617px;
+	background-image: url(../images/person.png);
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding-top: 20px;
+}
+.content1.top img{
+	margin-left: 10%;
+	/*margin-top: 5%;*/
+}
+.content1 span{
+	color: #7F7F7F;
+	font-size: 20px;
+	margin-left: 5%;
+	/*margin-top: 5%;*/
+}
+.content1 .bottom{
+	margin-top: 110%;
+	margin-left: 60%;
+}
+.footer{
+	width: 100%;
+	height: 60px;
+	background-color: #A7DFDE;
+	display: flex;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+}
+.footer div{
+	width: 25%;
+}
+.footer img{
+	margin-top: 10px;
+}

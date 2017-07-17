@@ -1,0 +1,22 @@
+.container-fluid{
+	padding: 0;
+}
+.header{
+	background-color: #A7DFDE;
+	width: 100%;
+	height: 70px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 70px;
+	font-size: 28px;
+}
+.touxiang{
+	width: 100px;
+	height: 100px;
+}
+.touxiang p{
+	text-align: center;
+}
+.duanwei{
+	width: 50%;
+}

@@ -29,47 +29,47 @@
 .nav2{
 	border-bottom: solid 1px #979797;
 }
-.top{
+.content2 .top{
 	display: flex;
 	width: 100%;
 	height: 42px;
 	margin-top: 5px;
 }
-.top img{
+.content2 .top img{
 	margin-left: 5%;
 }
-.top span{
+.content2 .top span{
 	margin-left: 3%;
 }
-.top p{
+.content2 .top p{
 	color: black;
 	margin-bottom: 0;
 }
-.name{
+.content2 .name{
 	font-size: 14px;
 	margin-top: 3px;
 }
-.time{
+.content2 .time{
 	font-size: 10px;
 	color: #CECECE;
 }
-.middle{
+.content2 .middle{
 	width: 100%;
 	height: 51px;
 	margin-top: 5%;
 }
-.middle p{
+.content2 .middle p{
 	text-align: center;
 }
-.bottom{
+.content2 .bottom{
 	display: flex;
 	margin-top: 15%;
 	justify-content: space-around;
 }
-hr{
+.content2 hr{
 	margin: 10px 0 30px;
 }
-.space{
+.content2 .space{
 	background-color: #D8D8D8;
 	height: 10px;
 	width: 100%;

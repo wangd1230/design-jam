@@ -40,9 +40,6 @@ html,body{
 .nav2{
 	border-bottom: solid 1px #979797;
 }
-.content{
-	display: none;
-}
 .daily,.volunter,.walk{
 	width: 100%;
 	height: 161px;
@@ -54,26 +51,37 @@ html,body{
 	height: 5px;
 	width: 100%;
 }
-.top{
+.content3 .top{
 	display: flex;
 	justify-content: space-between;
 }
-.bottom{
+.content3 .bottom{
 	display: flex;
 	justify-content: space-between;
 }
-.top p{
+.content3 p{
 	color: black;
+	width: 60px;
 }
 .jifen,.jiangli{
 	width: 100%;
+	height: 161px;
+	box-sizing: border-box;
+	padding: 0 10px;
+}
+.content4 .top{
+	display: flex;
+	justify-content: space-between;
+}
+.content4 .jifen,.content4 .jiangli{
+	width: 100%;
 	height: 237px;
 }
-.jifen .bottom,.jiangli .bottom{
+.content4 .jifen .bottom,.content4 .jiangli .bottom{
 	display: flex;
 	justify-content: space-around;
 }
-.jifen img,.jiangli img{
+.content4 .jifen img,.content4 .jiangli img{
 	margin-top: 15%;
 }
 .footer{
